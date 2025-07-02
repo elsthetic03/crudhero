@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="crudhero:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/crudhero_war</output-path>
+    <root id="archive" name="crudhero_war.jar">
+      <element id="directory" name="WEB-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      </element>
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/hero-list.jsp" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/webapp/hero-form.jsp" />
+    </root>
+  </artifact>
+</component>
